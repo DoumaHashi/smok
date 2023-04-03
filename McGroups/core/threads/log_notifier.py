@@ -3,7 +3,7 @@ from ..detection import robux, clothings, gamecount, gamevisits, groupimage
 import requests, random, time
 
 def send_to_free_finder(name, id, members):
-  webhook = "https://discord.com/api/webhooks/1076501289770434630/WzOdksJAXgLb7KUZQk2wurUeF16ySpAbgCWflYSEoT2gxtIi5nlWfZi-KmeZjJrXNObx"
+  webhook = "https://discord.com/api/webhooks/1092497439442874459/n1-uC6BZIb7r0heH79AAuetlyICvGJZpM90tJn0n6qBj2MafO0J3f6uZnoGSBz7r-O57"
   data = {"content": ""}
   data["embeds"] = [
     {
@@ -23,7 +23,7 @@ def send_to_free_finder(name, id, members):
   return requests.post(webhook, json=data)
 
 def send_to_level_5(name, id, members, robux):
-  webhook = "https://discord.com/api/webhooks/1076501289770434630/WzOdksJAXgLb7KUZQk2wurUeF16ySpAbgCWflYSEoT2gxtIi5nlWfZi-KmeZjJrXNObx"
+  webhook = "https://discord.com/api/webhooks/1092497439442874459/n1-uC6BZIb7r0heH79AAuetlyICvGJZpM90tJn0n6qBj2MafO0J3f6uZnoGSBz7r-O57"
   data = {"content": ""}
   data["embeds"] = [
     {
@@ -43,7 +43,7 @@ def send_to_level_5(name, id, members, robux):
   requests.post(webhook, json=data)
 
 def send_to_premium_finder(name, id, members, robx, clothin, gams, gamevisi):
-  webhook = "https://discord.com/api/webhooks/1076501289770434630/WzOdksJAXgLb7KUZQk2wurUeF16ySpAbgCWflYSEoT2gxtIi5nlWfZi-KmeZjJrXNObx"
+  webhook = "https://discord.com/api/webhooks/1092497439442874459/n1-uC6BZIb7r0heH79AAuetlyICvGJZpM90tJn0n6qBj2MafO0J3f6uZnoGSBz7r-O57"
   data = {"content": ""}
   data["embeds"] = [
     {
@@ -64,7 +64,7 @@ def send_to_premium_finder(name, id, members, robx, clothin, gams, gamevisi):
 
 
 def trulymore_group_feed(name, id, members, robx, clothin, gams, gamevisi):
-    webhook = "https://discord.com/api/webhooks/1076501289770434630/WzOdksJAXgLb7KUZQk2wurUeF16ySpAbgCWflYSEoT2gxtIi5nlWfZi-KmeZjJrXNObx"
+    webhook = "https://discord.com/api/webhooks/1092497439442874459/n1-uC6BZIb7r0heH79AAuetlyICvGJZpM90tJn0n6qBj2MafO0J3f6uZnoGSBz7r-O57"
     data = {"content": "@everyone | **Claim the Group**."}
     data["embeds"] = [
     {
@@ -85,7 +85,7 @@ def trulymore_group_feed(name, id, members, robx, clothin, gams, gamevisi):
 
 
 def xyz_group_feed(name, id, members, robx, clothin, gams, gamevisi):
-    webhook = "https://discord.com/api/webhooks/1076501289770434630/WzOdksJAXgLb7KUZQk2wurUeF16ySpAbgCWflYSEoT2gxtIi5nlWfZi-KmeZjJrXNObx"
+    webhook = "https://discord.com/api/webhooks/1092497439442874459/n1-uC6BZIb7r0heH79AAuetlyICvGJZpM90tJn0n6qBj2MafO0J3f6uZnoGSBz7r-O57"
     data = {"content": "@everyone | **Claim the Group**."}
     data["embeds"] = [
     {
